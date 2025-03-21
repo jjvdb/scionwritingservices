@@ -803,7 +803,7 @@ section,
 # Skills Section
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 90px;
+  height: 80px;
   display: block;
   background: none;
   border-radius: 0;
@@ -834,6 +834,16 @@ section,
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .skills .progress {
+    height: 100px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
 }
 
 /*--------------------------------------------------------------
