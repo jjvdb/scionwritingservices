@@ -660,57 +660,79 @@ section,
   border-bottom: 2px solid var(--accent-color);
 }
 
-/* Responsive adjustments */
-@media (max-width: 1024px) {
+
+/* Adjust for smaller laptops */
+@media (max-width: 1609px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .hero-title {
-    font-size: 48px;
-    max-width: 500px;
+    display: flex;
+    flex-direction: row; /* Keep in one line for tablets */
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-title .logo {
     height: 70px;
+    margin-right: 10px; /* Add spacing between logo and text */
   }
 }
 
+/* Adjust for tablets */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 48px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row; /* Keep in one line for tablets */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-title .logo {
+    height: 70px;
+    margin-right: 10px; /* Add spacing between logo and text */
+  }
+}
+
+/* Adjust for smaller screens */
 @media (max-width: 768px) {
   .hero {
-    justify-content: center; /* Center text for smaller screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 
   .hero .container {
-    position: relative;
-    z-index: 3;
-    width: 10%; /* Reduce width further to allow space for the image */
-    max-width: 10px; /* Set a max-width to prevent excessive stretching on large screens */
-    padding-left: 20px; /* Ensure there's a small gap on the left */
+    width: 90%; /* Allow container to take up more space */
+    max-width: 100%;
+    padding: 0 20px;
   }
 
   .hero-title {
     font-size: 36px;
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; /* Stack logo and text */
     align-items: center;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .hero-title .logo {
     height: 60px;
+    margin-bottom: 10px; /* Add space between logo and text */
   }
 
   .hero p {
     font-size: 20px;
+    max-width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -817,11 +839,6 @@ section,
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
-.resume .img {
-  height: 30px;
-  width: auto;
-  position: relative;
-}
 
 .resume .resume-title {
   color: var(--heading-color);
