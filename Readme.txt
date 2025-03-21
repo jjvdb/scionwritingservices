@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+I created this website using a template from these guys: https://themewagon.com/themes/iportfolio/
 
 Template Name: iPortfolio
 Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
