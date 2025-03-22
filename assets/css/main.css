@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Typolino';
   src: url('/assets/typolino-webfont/Typolino.woff') format('woff'),
-       url('/assets/typolino-webfont/Typolino.woff2') format('woff2');
+       url('/assets/typolino-webfont/Typolino.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +23,7 @@
 @font-face {
   font-family: 'Typolino';
   src: url('/assets/typolino-webfont/Typolino-Bold.woff') format('woff'),
-       url('/assets/typolino-webfont/Typolino-Bold.woff2') format('woff2');
+       url('/assets/typolino-webfont/Typolino-Bold.ttf') format('ttf');
   font-weight: bold;
   font-style: normal;
 }
