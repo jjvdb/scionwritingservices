@@ -679,7 +679,6 @@ section,
 
   .hero-title .logo {
     height: 70px;
-    margin-right: 10px; /* Add spacing between logo and text */
   }
 }
 
@@ -696,7 +695,6 @@ section,
 
   .hero-title .logo {
     height: 70px;
-    margin-right: 10px; /* Add spacing between logo and text */
   }
 }
 
@@ -707,6 +705,10 @@ section,
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .hero img {
+    object-position: 60% center;
   }
 
   .hero .container {
