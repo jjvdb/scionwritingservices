@@ -727,7 +727,6 @@ section,
 
   .hero-title .logo {
     height: 60px;
-    margin-bottom: 10px; /* Add space between logo and text */
   }
 
   .hero p {
