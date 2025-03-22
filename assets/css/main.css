@@ -718,7 +718,7 @@ section,
   }
 
   .hero-title {
-    font-size: 36px;
+    font-size: 30px;
     display: flex;
     flex-direction: column; /* Stack logo and text */
     align-items: center;
